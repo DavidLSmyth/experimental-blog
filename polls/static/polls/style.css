@@ -1,0 +1,10 @@
+li a{
+    color: green;
+	
+}
+body {
+	font-size: 25px;
+	margin: 100;
+    padding: 100;
+    background: white url("images/Race_off.jpg") no-repeat left bottom;
+}
