@@ -19,5 +19,6 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     #redirects everything that comes into http://127.0.0.1:8000/ to blog.urls
-    url(r'',include('myblog.urls')),
+    url(r'^$',include('myblog.urls')),
+    url(r'^polls/',include('polls.urls')),
 ]
